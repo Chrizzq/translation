@@ -1,0 +1,11 @@
+# Generic Messages
+message.not-registered=&b{0} &en'est &pas &ein &eenregistré &edans &ela &ebase &ede &données!
+ 
+# Ban Command Messages
+ban.incorrect=&eVeuillez &eutilisez &b/ban &b<joueur> &b<raison>&e!
+ban.success=&eVous &eavez &ebanni &b{0} &een &epermanence!
+ban.screen=&c&lVous &c&lavez &c&lété &c&lbanni!\n&c&lBy: &c&l{0}\n&eRaison: &c{1}\n&eDurée: &b{2}
+ 
+# Staff Chat Messages
+staff.prefix=&b[STAFF] {0}
+staff.ban.user=&e{0} &ea &ebanni &e{1} &eRaison: &b{2}&e!
