@@ -1,5 +1,10 @@
 # Generic Messages
 message.not-registered=&b{0} &eist &enicht &ein &eunserer &eDatenbank &eregistriert!
+message.perma=PERMANENT
+message.console=Console
+
+# Announce Format
+global.message=&b[GLOBAL] {0}&f: {1}
 
 # Ban Command Messages
 ban.incorrect=&eBitte &enutze &b/ban &b<Spieler> &b<Grund>&e!
