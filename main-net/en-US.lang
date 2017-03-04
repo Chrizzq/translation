@@ -6,7 +6,7 @@ meta.abbreviation=Eng
 meta.version=1.0.0
 
 # Generic Messages
-message.not-registered=&b{0} &ein't &eregistered &ein &eour &edatabase!
+message.not-registered=&b{0} &eisn't &eregistered &ein &eour &edatabase!
 message.perma=PERMANENT
 message.console=Console
 message.no-perms=&eYou &edon't &ehave &eaccess &eto &ethat!
