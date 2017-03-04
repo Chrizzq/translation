@@ -1,10 +1,51 @@
+# Other Info
+meta.name=English
+meta.abbreviation=Eng
+
+# This is the version number of the language file, you set this to what version you feel the language file is currently at
+meta.version=1.0.0
+
 # Generic Messages
 message.not-registered=&b{0} &ein't &eregistered &ein &eour &edatabase!
 message.perma=PERMANENT
 message.console=Console
+message.no-perms=&eYou &edon't &ehave &eaccess &eto &ethat!
+message.not-online=&b{0} &eisn't &eonline!
+message.line=&e&m----------------------------------
+message.online=ONLINE
+message.offline=OFFLINE
+message.now=Now
+message.error=ERROR
+message.alpha=Alphabetically
+message.chrono=Chronologically
+message.join={0} &ejoined.
+message.leave={0} &eleft.
+message.on=on
+message.and=and
+message.here=here
+message.page=&ePage: &b{0}&e/&b{1}
+
+# Generic Time Messages
+time.second=second
+time.minute=minute
+time.hour=hour
+time.day=day
+time.seconds=seconds
+time.minutes=minutes
+time.hours=hours
+time.days=days
+time.Second=Second
+time.Minute=Minute
+time.Hour=Hour
+time.Day=Day
+time.Seconds=Seconds
+time.Minutes=Minutes
+time.Hours=Hours
+time.Days=Days
 
 # Announce Format
 global.message=&b[GLOBAL] {0}&f: {1}
+global.incorrect=&eIncorrect &eusage, &eplease &euse &b/announce &b<message>&e!
 
 # Ban Command Messages
 ban.incorrect=&ePlease &euse &b/ban &b<player> &b<reason>&e!
@@ -13,4 +54,87 @@ ban.screen=&c&lYou &c&lHave &c&lBeen &c&lBanned!\n&c&lBy: &c&l{0}\n&eReason: &c{
 
 # Staff Chat Messages
 staff.prefix=&b[STAFF] {0}
+staff.message={0}&f: {1}
+staff.incorrect=&eIncorrect &eusage, &eplease &euse &b/sc &b<message>&e, &eor &b/sc &btoggle&e!
+staff.receive=&eYou &eare &anow &areceiving &emessages &efrom &estaff &echat!
+staff.not-receive=&eYou &ewill &cno &clonger &creceive &emessages &efrom &estaff &echat!
 staff.ban.user=&e{0} &ehas &ebanned &e{1} &ewith &ereason: &b{2}&e!
+staff.rank.user={0} &ehas &echanged {1} &eto {2}&e!"
+
+# Userinfo Command Messages
+userinfo.incorrect=&eIncorrect &eusage, &eplease &euse &b/userinfo &b<playername>&e!
+userinfo.ign=&eIGN: &b{0}
+userinfo.uuid=&eUUID: &b{0}
+userinfo.staff=&eStaff &eRank: &b{0}
+userinfo.donor=&eDonor &eRank: &b{0}
+userinfo.level=&eLevel: &b{0}
+userinfo.exp=&eEXP: &b{0}
+userinfo.exp-to-level=&eEXP &eto &enext &elevel: &b{0}
+userinfo.status=&eStatus: {0}
+userinfo.server=&eCurrent &eServer: &b{0}
+userinfo.ip=&eIP: &b{0}
+userinfo.first=&eFirst &eLogin: &b{0}
+userinfo.last=&eLast &eLogin: &b{0}
+
+# Rank Command Messages
+rank.uuid=&b{0} &eis &ea &bUUID &eand &enot &ea &bPlayer &bName&e!
+rank.incorrect=&cIncorrect &cusage, &cplease &cuse &6/rank &6<player> &6<donor/staff> &6<num>&c!
+rank.highest=&6{0} &cis &cthe &chighest &crank &cnumber &cfor &6{1}&c!
+
+# Tell Command Messages
+tell.incorrect=&eIncorrect &eusage, &eplease &euse &b/tell &b<player> &b<message>&e!
+tell.lonely=&eYou &ecannot &esend &emessages &eto &eyourself!
+tell.friends-list=&eYou &ecan &eonly &emessage &epeople &ewho &eare &eon &eyour &efriends &elist!
+tell.to=&eTo: {0}&f: {1}
+tell.from=&eFrom: {0}&f: {1}
+
+# Reply Command Messages
+reply.incorrect=&eIncorrect &eusage, &eplease &euse &b/reply &b<message>&e!
+reply.lonely=&eNobody &ehas &esent &eyou &ea &emessage &erecently!
+
+# Friend Command Messages
+friend.pending.none=&eYou &edon't &ehave &ea &epending &erequest &efrom &b{0}&e!
+friend.pending=&aPending &aRequests:
+friend.outstanding=&aOutstanding &aRequests:
+friend.all.none=&eYou &ehave &eno &eoutstanding/pending &efriend &erequests!
+friend.notfriends=&b{0} &eisn't &eon &eyour &efriends &elist!
+friend.list.lonely=&eYou &edon't &ehave &eany &efriends!
+friend.list.sort=&eYour &efriend &elist &eis &enow &esorted &b{0}&e!
+friend.list.sort.invalid=&b{0} &eisn't &ea &evalid &efriend &elist &esorting &estyle!
+friend.list.entry=&e{0} - {1} {2}
+friend.list.entry.server=&eon &a{0}
+friend.toggle.format=&eYou &ewill {0} &ereceive &efriend &e{1}!
+friend.toggle.on=&anow
+friend.toggle.off=&cno &clonger
+friend.requests=requests
+friend.requests.list={0} &e- &eExpires &ein: &b{1}&e!
+friend.notifications=notifications
+friend.help.0=&aFriend &aCommands:
+friend.help.1=&e/friend &ehelp &b- &bPrints &bthis &bhelp &bmessage.
+friend.help.2=&e/friend &eadd &e<player> &b- &bAdd &ba &bplayer &bas &ba &bfriend.
+friend.help.3=&e/friend &eaccept &e<player> &b- &bAccept &ba &bfriend &brequest.
+friend.help.4=&e/friend &edeny &e<player> &b- &bDecline &ba &bfriend &brequest.
+friend.help.5=&e/friend &elist &b- &bList &byour &bfriends.
+friend.help.6=&e/friend &elist &e<page> &b- &bList &byour &bfriends &bon &ba &bspecific &bpage.
+friend.help.7=&e/friend &elist &eset &e<date/alpha> &b- &bChange &bhow &byour &bfriends &blist &bis &bsorted.
+friend.help.8=&e/friend &enotifications &b- &bToggle &bfriend &bnotifications.
+friend.help.9=&e/friend &eremove &e<player> &b- &bRemoves &ba &bplayer &bfrom &byour &bfriends.
+friend.help.10=&e/friend &erequests &b- &bView &bfriend &brequests.
+friend.help.11=&e/friend &etoggle &b- &bToggle &bfriend &brequests.
+friend.add.disabled={0} &ehas &efriend &erequests &edisabled!
+friend.add.already=&eYou &eare &ealready &efriends &ewith {0}&e!
+friend.add.lonely=&eYou &ecannot &esend &ea &efriend &erequest &eto &eyourself!
+
+# Language Command Messages
+language.incorrect=&b{0} &eisn't &ea &evalid &elanguage &eoption!
+language.advert=&eWant &eit &eto &ebe? &eHelp &etranslate &ethe &enetwork
+language.link.meta=Link to network translation GitHub page
+language.confirm=&eYou've &echanged &eyour &elanguage &epack &eto: &b{0}
+language.info=&e&m---&r &bLanguage &bInformation &e&m---
+language.name=&eName: &b{0}
+language.abbreviation=&eAbbreviation: &b{0}
+language.code=&eCode: &b{0}
+language.version=&eVersion: &b{0}
+
+# Various Admin Messages
+admin.version=&7Current &7Main-Net &7Version: &a{0}
