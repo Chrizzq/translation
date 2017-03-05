@@ -1,0 +1,140 @@
+# Other Info
+meta.name=English
+meta.abbreviation=Eng
+
+# This is the version number of the language file, you set this to what version you feel the language file is currently at
+meta.version=1.0.0
+
+# Generic Messages
+message.not-registered=&b{0} &Het &eis &eniet &egeregistreerd &ein &eonze &eDataBase!
+message.perma=Oneindig
+message.console=Console
+message.no-perms=&eJe &eHebt &egeen &egeen &etoegang &eom &edat &ete &edoen
+message.not-online=&b{0} &eIs &eniet &eop &ede &eserver!
+message.line=&e&m----------------------------------
+message.online=ONLINE
+message.offline=OFFLINE
+message.now=Nu
+message.error=Fout
+message.alpha=in alfabetische volgorde
+message.chrono=Chronologisch
+message.join={0} &ejoined.
+message.leave={0} &eVerlaten.
+message.on=aan
+message.and=en
+message.here=hier
+message.page=&ePage: &b{0}&e/&b{1}
+
+# Generic Time Messages
+time.second=seconde
+time.minute=minuut
+time.hour=uur
+time.day=dag
+time.seconds=secondes
+time.minutes=minuten
+time.hours=uren
+time.days=dagen
+time.Second=Second
+time.Minute=Minuut
+time.Hour=Uur
+time.Day=Dag
+time.Seconds=Seconden
+time.Minutes=Minuten
+time.Hours=Uren
+time.Days=Dagen
+
+# Announce Format
+global.message=&b[GLOBAAL] {0}&f: {1}
+global.incorrect=&eVerkeerd &egberuikt, &egebruik &b/announce &b<Bericht>&e! 
+
+# Ban Command Messages
+ban.incorrect=&eGebruik &b/ban &b<player> &b<reason>&e!
+ban.success=&eJe &ehebt &b{0} &egebanned &evoor &ealtijd!
+ban.screen=&c&lJe &c&lbent &c&lgebanned!\n&c&lBy: &c&l{0}\n&eReason: &c{1}\n&eBan &eDuration: &b{2}
+
+# Staff Chat Messages
+staff.prefix=&b[STAFF] {0}
+staff.message={0}&f: {1}
+staff.incorrect=&eVerkeerde &ecommand, &egebruik &b/sc &b<message>&e, &eor &b/sc &btoggle&e!
+staff.receive=&eJe &ekrijgt &anu &aberichten &evan &estaff &echat &ebinnen!
+staff.not-receive=&eJe &ekrijgt &cniet &clanger &cberichten &ebinnen &evan &estaff &echat!
+staff.ban.user=&e{0} &eis &egebanned &e{1} &evoor: &b{2}&e!
+staff.rank.user={0} &eheeft {1}'s &erank &everanderd &eto {2}&e!"
+
+# Userinfo Command Messages
+userinfo.incorrect=&eVerkeerde &ecommand, &Gebruik &b/userinfo &b<spelernaam>&e!
+userinfo.ign=&eIGN: &b{0}
+userinfo.uuid=&eUUID: &b{0}
+userinfo.staff=&eStaff &eRank: &b{0}
+userinfo.donor=&eDonor &eRank: &b{0}
+userinfo.level=&eLevel: &b{0}
+userinfo.exp=&eEXP: &b{0}
+userinfo.exp-to-level=&eEXP &eto &enext &elevel: &b{0}
+userinfo.status=&eStatus: {0}
+userinfo.server=&eCurrent &eServer: &b{0}
+userinfo.ip=&eIP: &b{0}
+userinfo.first=&eFirst &eLogin: &b{0}
+userinfo.last=&eLast &eLogin: &b{0}
+
+# Rank Command Messages
+rank.uuid=&b{0} &eDat &eis &eeen &bUUID &een &egeen &bSpeler &bNaam&e!
+rank.incorrect=&cVerkeerde &command, &cgebruik &6/rank &6<player> &6<donor/staff> &6<num>&c!
+rank.highest=&6{0} &cDat &cis &cde &choogste &crank &cnummer &cfor &6{1}&c!
+
+# Tell Command Messages
+tell.incorrect=&eVerkeerde &command, &eGebruik &b/tell &b<player> &b<Bericht>&e!
+tell.lonely=&eJe &ekan &egeen &eberichten &enaar &ejezelf &esturen!
+tell.friends-list=&eJe &ekan &ealleen &eberichten &esturen &enaar &spelers &edie &eop &eje &eVriendenlijst &estaan!
+tell.to=&eNaar: {0}&f: {1}
+tell.from=&eVan: {0}&f: {1}
+
+# Reply Command Messages
+reply.incorrect=&eVerkeerde &ecommand, &eGebruik &b/reply &b<message>&e!
+reply.lonely=&eNiemand &eheeft &eje &eeen &ebericht &elaatst &egestuurt!
+
+# Friend Command Messages
+friend.pending.none=&eJe &ehebt &egeen &elopende &eVerzoeken &evan &b{0}&e!
+friend.pending=&aLopende &aVerzoeken:
+friend.outstanding=&aopenstaande &averzoeken:
+friend.all.none=&eJe &ehebt &egeen &eOpenstaande &evriend &everzoeken!
+friend.notfriends=&b{0} &eStaat &eniet &eop &eje &evrienden &elijst!
+friend.list.lonely=&eJe &ehebt &egeen &eenkele &evrienden!
+friend.list.sort=&eJe &evrienden &elijst &eis &enu &egesorteerd &eop &b{0}&e!
+friend.list.sort.invalid=&b{0} &eDat &eis &egeen &eVrienden &elijst &esorteer &estijl!
+friend.list.entry=&e{0} - {1} {2}
+friend.list.entry.server=&eon &a{0}
+friend.toggle.format=&eJe &ezal {0} &e{1}!3 &ontvangen
+friend.toggle.on=&anu
+friend.toggle.off=&cniet &clanger
+friend.requests=&eVriendschap &eVerzoeken
+friend.requests.list={0} &e- &eVervalt &ein: &b{1}&e!
+friend.notifications=meldingen
+friend.help.0=&aVriend &aCommands:
+friend.help.1=&e/friend &ehelp &b- &bPrint &bthis &bhelp &bmessage.
+friend.help.2=&e/friend &eadd &e<Speler> &b- &bSpeler &bzal &btoegevoegd &bworden &bals &bvriend
+friend.help.3=&e/friend &eaccept &e<player> &b- &bAccepteer &been &bvriendschap &bverzoek.
+friend.help.4=&e/friend &edeny &e<player> &b- &bWijs &been &bvriendschap &bverzoek &naf.
+friend.help.5=&e/friend &elist &b- &bLijst &bvan &bje &bvrienden.
+friend.help.6=&e/friend &elist &e<page> &b- &bLijst &bvan &bvrienden &bop &been &bspecefieke &bpagina.
+friend.help.7=&e/friend &elist &eset &e<date/alpha> &b- &bVerander &bhoe &bje &bvrienden &blijst &bwordt &bgesorteerd.
+friend.help.8=&e/friend &enotifications &b- &bVerander &bvriendschapsverzoeks &bmeldingen.
+friend.help.9=&e/friend &eremove &e<player> &b- &bVerwijder &been &bspeler &bvan &bje &bvriendenlijst.
+friend.help.10=&e/friend &erequests &b- &bBekijk &bvriendschaps &bverzoeken.
+friend.help.11=&e/friend &etoggle &b- &bToggle &bfriend &brequests.
+friend.add.disabled={0} &eHeeft &eVriendschap &everzoeken &euitstaan!
+friend.add.already=&eJe &ebent &eal &evrienden &emet {0}&e!
+friend.add.lonely=&eJe &ekan &egeen &eVriendschapsverzoek &enaar &ejezelf &sturen!
+
+# Language Command Messages
+language.incorrect=&b{0} &eDat &is &geen &taal &optie 
+language.advert=&eWil &eje &edat &ehet &eéén &ewordt? &eHelp &edan &emet &ehet &evertalen &evan &edie &etaal 
+language.link.meta=Link to network translation GitHub page
+language.confirm=&eJe &ehebt &eje &etaal &everanderd &naar: &b{0}
+language.info=&e&m---&r &bTaal &bInformatie &e&m---
+language.name=&eName: &b{0}
+language.abbreviation=&eafkorting: &b{0}
+language.code=&eCode: &b{0}
+language.version=&eVersie: &b{0}
+
+# Various Admin Messages
+admin.version=&7Current &7Main-Net &7Version: &a{0}
