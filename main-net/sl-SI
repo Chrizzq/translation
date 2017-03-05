@@ -1,0 +1,140 @@
+# Other info
+meta.name=Slovenia
+meta.abbreviation=Slo
+
+# This is the version number of the language file, you set this to what version you feel the language file is currently at
+meta.version=1.0.0
+
+# Generic Messages
+message.not-registered=&b{0} &eni &eregistriran &ev &enaši &epodatkovni &ebazi!
+message.perma=PERMANENT
+message.console=Konzola
+message.no-perms=&eNimaš &edostopa &edo &etega!
+message.not-online=&b{0} &eni &edosegljiv!
+message.line=&e&m----------------------------------
+message.online=ONLINE
+message.offline=OFFLINE
+message.now=Zdaj
+message.error=NAPAKA
+message.alpha=Po abecedi
+message.chrono=Kronološko
+message.join={0} &ese &eje &epridružil.
+message.leave={0} &ese &eje &eodjavil.
+message.on=na
+message.and=in
+message.here=tukaj
+message.page=&ePage: &b{0}&e/&b{1}
+
+# Generic Time Messages
+time.second=sekunda
+time.minute=minuta
+time.hour=ura
+time.day=dan
+time.seconds=sekunde
+time.minutes=minute
+time.hours=ure
+time.days=dnevi
+time.Second=Secona
+time.Minute=Minuta
+time.Hour=Ura
+time.Day=Dan
+time.Seconds=Seconde
+time.Minutes=Minute
+time.Hours=Ure
+time.Days=Dnevi
+
+# Announce Format
+global.message=&b[GLOBAL] {0}&f: {1}
+global.incorrect=&eNepravilna &euporaba, &eprosimo &euporabite &b/announce &b<sporočilo>&e!
+
+# Ban Command Messages
+ban.incorrect=&eProsimo &euporabite &b/ban &b<uporabnik> &b<razlog>&e!
+ban.success=&ePravkar &este &ebanali &b{0}!
+ban.screen=&c&lPravkar &c&lste &c&lbili &c&lbanani!\n&c&lBy: &c&l{0}\n&eRazlog: &c{1}\n&eČas: &b{2}
+
+# Staff Chat Messages
+staff.prefix=&b[STAFF] {0}
+staff.message={0}&f: {1}
+staff.incorrect=&eNepravilna &euporaba, &eprosimo &euporabite &b/sc &b<sporočilo>&e, &eor &b/sc &btoggle&e!
+staff.receive=&eSedaj &aprejemate &asporočila &eiz &estaff &echata!
+staff.not-receive=&eSedaj &cneboste &cveč &cprejemali &esporočilo &eiz &estaff &echata!
+staff.ban.user=&e{0} &eje &ebil &ebanan &e{1} &ez &erazlogom: &b{2}&e!
+staff.rank.user={0} &eje &ebil &espremenjen &eiz {1} &ev {2}&e!"
+
+# Userinfo Command Messages
+userinfo.incorrect=&eNepravilna &euporaba, &eprosimo &euporabite &b/userinfo &b<ime_uporabnika>&e!
+userinfo.ign=&eIGN: &b{0}
+userinfo.uuid=&eUUID: &b{0}
+userinfo.staff=&eStaff &eRank: &b{0}
+userinfo.donor=&eDonor &eRank: &b{0}
+userinfo.level=&eLevel: &b{0}
+userinfo.exp=&eEXP: &b{0}
+userinfo.exp-to-level=&eEXP &edo &enaslednjega &elevela: &b{0}
+userinfo.status=&eStatus: {0}
+userinfo.server=&eTrenutni &eServer: &b{0}
+userinfo.ip=&eIP: &b{0}
+userinfo.first=&ePrva &ePrijava: &b{0}
+userinfo.last=&eZadnja &ePrijava: &b{0}
+
+# Rank Command Messages
+rank.uuid=&b{0} &eje &bUUID &ein &ene &ea &bUporabniško &bIme&e!
+rank.incorrect=&cNepravilna &cuporaba, &cprosimo &cuporabite &6/rank &6<uporabnik> &6<donor/staff> &6<številka>&c!
+rank.highest=&6{0} &cis &cthe &chighest &crank &cnumber &cfor &6{1}&c!
+
+# Tell Command Messages
+tell.incorrect=&eNepravilna &euporaba, &eprosimo &euporabite &b/tell &b<uporabnik> &b<sporočilo>&e!
+tell.lonely=&eNe  &emoreš &epošiljati &esporočil &esamemu &esebi!
+tell.friends-list=&eSporočila &elahko &epošiljaš &ele &eljudem &eki &eso &ena &etvojem &eseznamu &eprijateljev!
+tell.to=&eOd: {0}&f: {1}
+tell.from=&eZa: {0}&f: {1}
+
+# Reply Command Messages
+reply.incorrect=&eNepravilna &euporaba, &eprosimo &euporabite &b/reply &b<sporočilo>&e!
+reply.lonely=&eNihče &eti &esni &eposlal &esporočila &emessage &ev &ezadnjem &ečasu!
+
+# Friend Command Messages
+friend.pending.none=&eNimaš &eprošnje &eza &eprijateljstvo &eod &b{0}&e!
+friend.pending=&aPrejete &aprošnje:
+friend.outstanding=&aPoslane &aprošnje:
+friend.all.none=&eImap &e0 &eposlanih/prejetih &eprošenj &eza &eprijateljstvo!
+friend.notfriends=&b{0} &eni &ena &etvojem &eseznamu &eprijateljev!
+friend.list.lonely=&eNimap &eprijateljev!
+friend.list.sort=&eTvoj &eseznam &eprijateljev &eje &ezdaj &erazvrščen: &b{0}&e!
+friend.list.sort.invalid=&b{0} &eni &epravilen &erazvrstilni &ered &eseznama &eprijateljev!
+friend.list.entry=&e{0} - {1} {2}
+friend.list.entry.server=&ena &a{0}
+friend.toggle.format=&eYou &ewill {0} &ereceive &efriend &e{1}!
+friend.toggle.on=&anow
+friend.toggle.off=&cno &clonger
+friend.requests=requests
+friend.requests.list={0} &e- &eExpires &ein: &b{1}&e!
+friend.notifications=obvestila
+friend.help.0=&aFriend &aukazi:
+friend.help.1=&e/friend &ehelp &b- &bNatisne &bto &bsporočilo.
+friend.help.2=&e/friend &eadd &e<uporabnik> &b- &bDodaj &bprijatelja.
+friend.help.3=&e/friend &eaccept &e<uporabnik> &b- &bSprejmi &bprošnjo &bza &bprijateljstvo.
+friend.help.4=&e/friend &edeny &e<uporabnik> &b- &bZavrni &bprošnjo &bza &bprijateljstvo.
+friend.help.5=&e/friend &elist &b- &bSeznam &bprijateljev.
+friend.help.6=&e/friend &elist &e<stran> &b- &bSeznam &bprijateljev &bna &btej &bstrani.
+friend.help.7=&e/friend &elist &eset &e<datum/abeceda> &b- &bSpremeni &bkako &bje &bsortirano.
+friend.help.8=&e/friend &enotifications &b- &bIzklop/Vklop &bprijateljskih &bobvestil.
+friend.help.9=&e/friend &eremove &e<uporabnik> &b- &bOdstrani &bprijatelja &bit &btvojega &bseznama &bprijateljev.
+friend.help.10=&e/friend &erequests &b- &bOglej &bsi &bprošnje &bza &bprijateljstvo.
+friend.help.11=&e/friend &etoggle &b- &bIzklop/Vklop &bprošenj &bza &bprijateljstvo.
+friend.add.disabled={0} &eima &eizključene &eprošnje &bza &eprijateljstvo!
+friend.add.already=&eSi &bže &bprijatelj &bz {0}&e!
+friend.add.lonely=&eNe &emoreš &eposlati &eprošenj &eza &eprijateljstvo &esamemu &esebi!
+
+# Language Command Messages
+language.incorrect=&b{0} &eni &epravilna &eopcija &ejezika!
+language.advert=&eAli &eželiš &eda &eje? &ePomagaj &eprevesti &enomrežje
+language.link.meta=Link to network translation GitHub page
+language.confirm=&eSpremenili &este &ejezik &ev: &b{0}
+language.info=&e&m---&r &bInformacije &bo &bJeziku &e&m---
+language.name=&eIme: &b{0}
+language.abbreviation=&eOkrajšava: &b{0}
+language.code=&eKoda: &b{0}
+language.version=&eVerzija: &b{0}
+
+# Various Admin Messages
+admin.version=&7Trenutnja &7Main-Net &7Verzija: &a{0}
