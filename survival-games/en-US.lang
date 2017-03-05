@@ -1,1 +1,36 @@
+# Other Info
+meta.name=English
+meta.abbreviation=Eng
 
+# This is the version number of the language file, you set this to what version you feel the language file is currently at
+meta.version=1.0.0
+
+# General Messages
+message.line=&m-----------------------
+message.codomc=&e&nwww.codomc.com
+
+# Scoreboard
+sb.title.0=&e&lSurvival Games
+sb.title.1=&f&lSu&6&lrvival Games
+sb.title.2=&f&lSu&6&lrvival Games
+sb.title.3=&f&lSurv&6&lival Games
+sb.title.4=&f&lSurviv&6&lal Games
+sb.title.5=&f&lSurvival &6&lGames
+sb.title.6=&f&lSurvival Ga&6&lmes
+sb.title.7=&f&lSurvival Game&6&ls
+sb.title.8=&f&lSurvival Games
+sb.stats.kills=&fKills: &c{0}
+
+# Sector Messages
+sector.create.info.1=&2&l[Info] &r&7- &cRight click &7a block to select corners.
+sector.create.info.2=&2&l[Info] &r&7- &9Left click &7a block to delete a selected corner.
+sector.create.success.removed=&4&l[Info] &r&7- &7Vertex (&c{0}&7, &2{1}&7) has been removed.
+sector.create.success.added=&4&l[Info] &r&7- &7Vertex (&c{0}&7, &2{1}&7) has been added.
+sector.create.error.removed=&4&l[Error] &r&7- &cThat block has not been previously selected!
+sector.create.error.added=&4&l[Error] &r&7- &cThat block has not been previously selected!
+sector.resize.info.1=&2&l[Info] &r&7- &cLeft click &7a currect vertex to select it.
+sector.resize.info.2=&2&l[Info] &r&7- &7Then &cright click &7to select the new location.
+sector.resize.success.selected=&4&l[Info] &r&7- &7Vertex (&c{0}&7, &2{1}&7) has been selected.
+sector.resize.success.replaced=&4&l[Info] &r&7- &7Vertex (&c{0}&7, &2{1}&7) has been selected.
+sector.resize.error.selected=&4&l[Error] &r&7- &cThat is not a vertex of this sector!
+sector.resize.error.replaced=&4&l[Error] &r&7- &cA block has not been previously selected!
